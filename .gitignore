@@ -1,0 +1,5 @@
+net.sf.eclipsecs.doc/docs/
+*/bin/
+*/target/
+*/.DS_Store                     
+
