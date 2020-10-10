@@ -1,0 +1,17 @@
+com.puppycrawl.tools.checkstyle.api.CheckstyleException: cannot initialize module TreeWalker - Property 'max' in module SwissArmyKnife does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:464)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:186)
+	at net.sf.eclipsecs.core.builder.CheckerFactory.createCheckerInternal(CheckerFactory.java:299)
+	at net.sf.eclipsecs.core.builder.CheckerFactory.createChecker(CheckerFactory.java:133)
+	at net.sf.eclipsecs.core.builder.Auditor.runAudit(Auditor.java:141)
+	at net.sf.eclipsecs.core.builder.CheckstyleBuilder.handleBuildSelection(CheckstyleBuilder.java:306)
+	at net.sf.eclipsecs.core.jobs.RunCheckstyleOnFilesJob.runInWorkspace(RunCheckstyleOnFilesJob.java:119)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: Property 'max' in module SwissArmyKnife does not exist, please check the documentation
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.tryCopyProperty(AutomaticBean.java:213)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:179)
+	at com.puppycrawl.tools.checkstyle.TreeWalker.setupChild(TreeWalker.java:170)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:186)
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:459)
+	... 8 more

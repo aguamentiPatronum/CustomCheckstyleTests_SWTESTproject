@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<checkstyle-configurations file-format-version="5.0.0">
+  <check-configuration name="methodLimit" location="internal_config_1602117594686.xml" type="internal" description=""/>
+  <check-configuration name="TypeCheckingCheck" location="internal_config_1602118475045.xml" type="internal" description=""/>
+  <check-configuration name="SpaghettiTest" location="internal_config_1602371103852.xml" type="internal" description=""/>
+  <check-configuration name="FeatureEnvyCheck" location="internal_config_1602371264376.xml" type="internal" description=""/>
+  <check-configuration name="SwissArmyCheck" location="internal_config_1602371270008.xml" type="internal" description=""/>
+</checkstyle-configurations>
